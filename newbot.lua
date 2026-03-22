@@ -12,8 +12,8 @@ local pattern = "_"
 
 -- [[ PERMANENT SUPERIORS ]]
 local SUPERIORS = {
-    [8318041345] = {Name = "akj20095", Nick = "anil"},
-    [7224046803] = {Name = "god_ofgame99920", Nick = "ayu"}
+    [8318041345] = {Name = "akj20095", Nick = "SIR_Anil"},
+    [7224046803] = {Name = "god_ofgame99920", Nick = "God ayu"}
 }
 
 local roMessages = {
@@ -181,7 +181,7 @@ frame.Size = UDim2.new(0, 250, 0, 380); frame.Position = UDim2.new(0.5, -125, 0.
 frame.BackgroundColor3 = Color3.fromRGB(15, 15, 15); frame.Active = true; frame.Draggable = true; frame.Visible = false; Instance.new("UICorner", frame)
 
 local title = Instance.new("TextLabel", frame)
-title.Size = UDim2.new(1, 0, 0, 40); title.Text = "👑 ANIL DEMON V18"; title.TextColor3 = Color3.new(1, 1, 1); title.BackgroundColor3 = Color3.fromRGB(45, 0, 90); Instance.new("UICorner", title)
+title.Size = UDim2.new(1, 0, 0, 40); title.Text = "👑 ANIL bot script"; title.TextColor3 = Color3.new(1, 1, 1); title.BackgroundColor3 = Color3.fromRGB(45, 0, 90); Instance.new("UICorner", title)
 
 local targetLabel = Instance.new("TextLabel", frame)
 targetLabel.Size = UDim2.new(1, 0, 0, 30); targetLabel.Position = UDim2.new(0, 0, 0, 45); targetLabel.Text = "MASTER: NONE"; targetLabel.TextColor3 = Color3.new(1, 1, 0); targetLabel.BackgroundTransparency = 1
